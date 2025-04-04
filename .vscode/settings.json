@@ -1,0 +1,21 @@
+{
+  "dart.flutterSdkPath": ".fvm/versions/3.22.3",
+  "cSpell.words": [],
+  "java.configuration.updateBuildConfiguration": "interactive",
+  "dart.lineLength": 140,
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [
+      140
+    ],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.wordBasedSuggestions": "matchingDocuments",
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit",
+      "source.organizeImports": "explicit"
+    }
+  }
+}

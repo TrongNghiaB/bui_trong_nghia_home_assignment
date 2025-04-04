@@ -1,0 +1,85 @@
+name: bui_trong_nghia_home_assignment
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management
+  hooks_riverpod: ^2.3.2  # Riverpod with hooks support
+  flutter_hooks: ^0.18.6  # Flutter Hooks for managing widget state
+
+  # Networking
+  dio: ^5.4.0  # For handling API requests
+
+  # Location
+
+  # Utility
+  intl: ^0.18.1 # For date formatting (e.g., converting timestamps to readable dates)
+  auto_route: ^6.0.1
+  build_runner: ^2.3.3
+  freezed_annotation: ^2.4.4
+  json_annotation: ^4.9.0
+  geolocator: ^13.0.2
+  dartz: ^0.10.1
+  logger: ^2.5.0
+  geocoding: ^3.0.0
+  flutter_dotenv: ^5.2.1
+  mocktail: ^1.0.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  auto_route_generator: ^6.0.3
+  freezed: ^2.3.2
+  json_serializable: ^6.6.1
+  flutter_gen_runner: 5.2.0
+
+flutter_gen:
+  output: lib/gen/
+
+  line_length: 80
+
+  integrations:
+    flutter_svg: true
+    flare_flutter: true
+    rive: true
+
+  assets:
+    enabled: true
+
+    package_parameter_enabled: true
+
+    style: camel-case
+
+  fonts:
+    enabled: true
+
+  colors:
+    enabled: true
+
+    inputs:
+      - assets/colors/app_color.xml
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - .env
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Thin.ttf
+          weight: 100
+        - asset: assets/fonts/Roboto-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Roboto-Black.ttf
+          weight: 900

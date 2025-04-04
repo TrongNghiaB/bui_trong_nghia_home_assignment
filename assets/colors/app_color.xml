@@ -1,0 +1,7 @@
+<resources>
+    <color name="error_background" type="material">#FE85959</color>
+    <color name="error_title" type="material">#4a4a4a</color>
+    <color name="default_background" type="material">#F5F6F7</color>
+    <color name="city_name_title" type="material">#2A2A2A</color>
+    <color name="current_temp_title" type="material">#2A2A2A</color>
+</resources>
